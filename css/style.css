@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    max-width: 100%;
+    max-width:100%;
     padding: 0;
 }
 /* Utility for sections */
@@ -13,6 +13,17 @@
     height:100px;
     width:100%;
     background-color: aquamarine !important;
+}
+
+.Section2container{
+    background-image: <img src="./img("header-background.png")>;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+    width:100%;
+    
+   
 }
 .Section2-3-4-5-7container{
     display:flex;
@@ -50,9 +61,10 @@
 .rectangleitem-section2-3-4-5-7{
     display:flex;
     height:180px;
-    width:60%;
+    width: 40%;
     border: 1px dashed black;
-/* (Background-color)*/
+   
+
 
 .Section2text{
     text-align: center;
@@ -64,7 +76,7 @@
 .rectangleitem-section2-3-4-5-7{
     display:flex;
     height:180px;
-    width:60%;
+    width:40%;
     border: 1px dashed black;
 /* (Background-color)*/
 }
@@ -82,7 +94,7 @@
 .rectangleitem-section2-3-4-5-7{
     display:flex;
     height:180px;
-    width:60%;
+    width:40%;
     border: 1px dashed black;
 /* (Background-color)*/
 }
@@ -100,7 +112,7 @@
 .rectangleitem-section2-3-4-5-7{
     display:flex;
     height:180px;
-    width:60%;
+    width:40%;
     border: 1px dashed black;
 /* (Background-color)*/
 }
