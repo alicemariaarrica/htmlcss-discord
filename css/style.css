@@ -49,6 +49,8 @@
     border: 1px dashed black;
     background-color: #3161e0;
 }
+
+
 /*Section 2*/
 
 
@@ -63,21 +65,25 @@
     background-size: 100%; /* Fa sì che l'immagine si adatti all'interno senza ritagliarsi */
     background-position: center; /* Centra l'immagine */
     background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
-   
-}
+  
 
 .Section2item{
     display:flex;
+    justify-content:center;
+    align-items:center;
     height:180px;
-    width:100%;
+    width:75%;
     border:
     background-color: transparent;
-}
-
-.Section2text{
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+   
+}
+
+.Section2text{
+    
 }
 
 
