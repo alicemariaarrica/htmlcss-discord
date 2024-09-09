@@ -16,7 +16,7 @@
 }
 
 .Section2container{
-    background-image: <img src="./img("header-background.png")>;
+    background-image: ./img("header-background.png");
     display:flex;
     justify-content:center;
     align-items:center;
@@ -88,7 +88,7 @@
 .section3rectangle2{
     width: 40%;
     height: 100%;
-    background-color: pink;
+    background-color: white;
 }
 /*Section4*/
 .rectangleitem-section2-3-4-5-7{
