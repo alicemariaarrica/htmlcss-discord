@@ -6,25 +6,7 @@
     padding: 0;
 }
 /* Utility for sections */
-.Section1container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100px;
-    width:100%;
-    background-color: aquamarine !important;
-}
 
-.Section2container{
-    background-image: ./img("header-background.png");
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:200px;
-    width:100%;
-    
-   
-}
 .Section2-3-4-5-7container{
     display:flex;
     justify-content:center;
@@ -48,6 +30,16 @@
 }
 /* Utility for items and their inner items */
 /*Section 1*/
+
+.Section1container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+    width:100%;
+    background-color: aquamarine !important;
+}
+
 .rectangleitem-section1{
     display:flex;
     height: 55px;
@@ -58,17 +50,33 @@
     background-color: orange;
 }
 /*Section 2*/
-.rectangleitem-section2-3-4-5-7{
+
+
+.Section2container{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+    width:100%;
+    background-image: url('/img/header-background.png');
+    background-size: contain; /* Fa sì che l'immagine si adatti all'interno senza ritagliarsi */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+   
+}
+
+.Section2item{
     display:flex;
     height:180px;
-    width: 40%;
-    border: 1px dashed black;
-   
-
+    width:100%;
+    border:
+    background-color: transparent;
+}
 
 .Section2text{
     text-align: center;
-    color:white
+    color: white;
 }
 
 }
@@ -83,7 +91,7 @@
 .section3rectangle1{
     width: 100%;
     height: 100%;
-    background-color: rgb(12, 182, 198);
+  
 }
 .section3rectangle2{
     width: 40%;
@@ -96,17 +104,19 @@
     height:180px;
     width:40%;
     border: 1px dashed black;
-/* (Background-color)*/
+    background-color: white;
 }
+
 .section4rectangle1{
     width: 40%;
     height: 100%;
-    background-color: pink;
+    background-color: white;
 }
 .section4rectangle2{
     width: 100%;
     height: 100%;
-    background-color: rgb(12, 182, 198);
+    background-color:white;
+
 }
 /*Section5*/
 .rectangleitem-section2-3-4-5-7{
@@ -221,4 +231,8 @@
 }
 .darkorange{
     background-color: darkorange;
+}
+
+.transparent{
+    background-color: transparent;
 }
