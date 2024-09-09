@@ -37,7 +37,7 @@
     align-items:center;
     height:100px;
     width:100%;
-    background-color: aquamarine !important;
+    background-color:#3161e0!important;
 }
 
 .rectangleitem-section1{
@@ -47,7 +47,7 @@
     align-items:center;
     width:75%;
     border: 1px dashed black;
-    background-color: orange;
+    background-color: #3161e0;
 }
 /*Section 2*/
 
@@ -60,7 +60,7 @@
     height:200px;
     width:100%;
     background-image: url('/img/header-background.png');
-    background-size: contain; /* Fa sì che l'immagine si adatti all'interno senza ritagliarsi */
+    background-size: 100%; /* Fa sì che l'immagine si adatti all'interno senza ritagliarsi */
     background-position: center; /* Centra l'immagine */
     background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
    
@@ -77,26 +77,48 @@
 .Section2text{
     text-align: center;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-}
+
+
 /*Section 3*/
+
+.Section3container{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200px;
+    width:100%;
+    
+}
+
+
 .rectangleitem-section2-3-4-5-7{
     display:flex;
     height:180px;
     width:40%;
     border: 1px dashed black;
-/* (Background-color)*/
+    
+
 }
 .section3rectangle1{
     width: 100%;
     height: 100%;
+    background-image: url('/img/item1.svg');
+    background-size: 100%; /* Fa sì che l'immagine si adatti all'interno senza ritagliarsi */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
   
 }
 .section3rectangle2{
     width: 40%;
     height: 100%;
     background-color: white;
+    text-align: center;
+    color: 23272a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*Section4*/
 .rectangleitem-section2-3-4-5-7{
@@ -111,11 +133,21 @@
     width: 40%;
     height: 100%;
     background-color: white;
+    text-align: center;
+    color: 23272a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .section4rectangle2{
     width: 100%;
     height: 100%;
     background-color:white;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/item2.svg');
+    background-size: 100%; /* Fa sì che l'immagine si adatti all'interno senza ritagliarsi */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+  
 
 }
 /*Section5*/
@@ -129,12 +161,25 @@
 .section5rectangle1{
     width: 100%;
     height: 100%;
-    background-color: rgb(12, 182, 198);
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/item3.svg');
+    background-size: 100%; /* Fa sì che l'immagine si adatti all'interno senza ritagliarsi */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+  
 }
 .section5rectangle2{
     width: 40%;
     height: 100%;
-    background-color: pink;
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    color: 23272a;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 /*Section6*/
 .item-section6{
